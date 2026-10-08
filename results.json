@@ -1,0 +1,91 @@
+{
+  "roll": "BT2024261",
+  "seed": 261,
+  "validation_folds": 5,
+  "software": {
+    "python": "3.12.14",
+    "scikit_learn": "1.9.1",
+    "numpy": "2.3.4"
+  },
+  "problems": {
+    "var1": {
+      "selected": {
+        "method": "omp",
+        "basis": "power",
+        "degree": 5,
+        "terms": 48,
+        "mean_mse": 0.41468482648494753,
+        "std_mse": 0.044071400565757264,
+        "fold_1_mse": 0.40097897398895055,
+        "fold_2_mse": 0.3800511954450102,
+        "fold_3_mse": 0.38407534697225215,
+        "fold_4_mse": 0.4079494966689229,
+        "fold_5_mse": 0.5003691193496019
+      },
+      "holdout": {
+        "mse": 0.2924264412937258,
+        "r2": 0.970136367374864
+      },
+      "mean_baseline": {
+        "mse": 9.86545523606563,
+        "r2": -0.007495524502385553
+      },
+      "development_fit": {
+        "mse": 0.2679282609299728,
+        "r2": 0.9735816190751562
+      },
+      "alpha": null,
+      "polynomial_terms": 461,
+      "nonzero_terms": 48,
+      "training_rows": 1000,
+      "test_rows": 1000,
+      "development_rows": 800,
+      "holdout_rows": 200,
+      "repeated_inputs": 0,
+      "train_boundary_fraction": 0.878,
+      "test_boundary_fraction": 0.989,
+      "training_sha256": "bdc816efd64e5a0a097cf6f92051f07c1a2c60aa4c287b450e775158902607df",
+      "test_sha256": "2f9cc46fc29d46534298a5e28c35a73b95a82f43a4d849b49c1a7c780ec50f5f"
+    },
+    "var2": {
+      "selected": {
+        "method": "ridge",
+        "basis": "power",
+        "degree": 14,
+        "terms": 0,
+        "mean_mse": 0.30749534704567905,
+        "std_mse": 0.03312856168151418,
+        "fold_1_mse": 0.3113530349786562,
+        "fold_2_mse": 0.24623050194274435,
+        "fold_3_mse": 0.3063045910199309,
+        "fold_4_mse": 0.3360981074082468,
+        "fold_5_mse": 0.33749049987881685,
+        "fold_alphas": "1.0,10.0,10.0,10.0,1.0"
+      },
+      "holdout": {
+        "mse": 0.2508972272706926,
+        "r2": 0.9956528640948323
+      },
+      "mean_baseline": {
+        "mse": 57.71643147482478,
+        "r2": -1.5720826050946712e-05
+      },
+      "development_fit": {
+        "mse": 0.19704230954864718,
+        "r2": 0.9958261326236624
+      },
+      "alpha": 10.0,
+      "polynomial_terms": 679,
+      "nonzero_terms": 679,
+      "training_rows": 1000,
+      "test_rows": 1000,
+      "development_rows": 797,
+      "holdout_rows": 203,
+      "repeated_inputs": 11,
+      "train_boundary_fraction": 0.587,
+      "test_boundary_fraction": 0.589,
+      "training_sha256": "9750116bd7547ae8ba3518baf5e6e4317d93f57a67544e86f892c60097fad74e",
+      "test_sha256": "75fd5a6ee13350367368bc0e008ebfadf6a8ef44a74451caef09af61a95c69e3"
+    }
+  }
+}

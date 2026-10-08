@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+BT*_train_*.csv
+BT*_test_*.csv

@@ -1,0 +1,16 @@
+[experiment]
+roll = "BT2024261"
+seed = 261
+validation_folds = 5
+holdout_fraction = 0.20
+bases = ["power", "chebyshev"]
+ridge_alphas = [0.000001, 0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0]
+sparse_terms = [12, 24, 48, 96]
+
+[problems.var1]
+inputs = 6
+maximum_degree = 10
+
+[problems.var2]
+inputs = 3
+maximum_degree = 20
